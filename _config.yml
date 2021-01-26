@@ -1,0 +1,42 @@
+---
+
+port: 4000
+host: 0.0.0.0
+safe: false
+
+
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: /:title ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
+
+
+### content configuration ###
+title:       "Nathan King"
+keywords:    "computer science, applied mathematics, computational mathematics, animation, physics, geometry, geometry processing, closest point, closest point method"
+source_link: "https://github.com/t413/SinglePaged"
+remote_theme: t413/SinglePaged
+favicon:     "img/headshot.png"
+touch_icon:  "img/headshot.png"
+google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+
+
+### template colors, used site-wide via css ###
+colors:
+  black:     '#111111'
+  white: '#ffffff'
+  blue:      '#49a7e9'
+  green:     '#9bcf2f'
+  purple:    '#c869bf'
+  orange:    '#fab125' 
+  turquoise: '#0fbfcf'
+  dark white: '#c1ccd4'
+  light gray:  '#a8b3bd'
+  matlab blue: '#0072bd'
+
+
+kramdown:
+  auto_ids:  false
+
