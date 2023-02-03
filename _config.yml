@@ -1,40 +1,73 @@
----
+# Site Settings
+baseurl: "/Grape-Academic-Theme"
 
-port: 4000
-host: 0.0.0.0
-safe: false
+# Features Setting
+# Turn subpages on or off
+publications: False
+presentations: False
+blog: False 
 
+# Language of the website
+lang: en
 
-### site serving configuration ###
-exclude: [CNAME, README.md, .gitignore]
-permalink: /:title ## disables post output
-timezone: null
-lsi: false
-markdown: kramdown
+# Search engine optimization settings
+title: Nathan King
+tagline: Computer Graphics Researcher
+description: Personal Website
+author: Nathan King
+twitter:
+  username: chrjabs
+  card: A jekyll theme for academic portfolios
+logo: /assets/img/smile.png
+social:
+  name: Nathan King
+  links:
+    - https://twitter.com/chrjabs
+    - https://github.com/chrjabs
+locale: en_GB
 
+# Page Settings
+theme_settings:
+  title: Nathan King
 
-### content configuration ###
-title:       "Nathan King"
-keywords:    "computer science, applied mathematics, computational mathematics, animation, physics, geometry, geometry processing, closest point, closest point method"
-favicon:     "img/headshot.png"
-touch_icon:  "img/headshot.png"
-google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+  experience_title: EXPERIENCE
+  interests_title: AWARDS
+  skills_title: SKILLS
+  awards_title: AWARDS
+  projects_title: RESEARCH
+  recentpubs_title: RESEARCH
 
+# Pagination
+paginate: 5
+paginate_path: "blog/page:num"
 
-### template colors, used site-wide via css ###
-colors:
-  black:     '#111111'
-  white: '#ffffff'
-  blue:      '#49a7e9'
-  green:     '#9bcf2f'
-  purple:    '#c869bf'
-  orange:    '#fab125' 
-  turquoise: '#0fbfcf'
-  dark white: '#c1ccd4'
-  light gray:  '#a8b3bd'
-  matlab blue: '#0072bd'
+# Build Settings
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: ['jekyll-paginate', 'jekyll/scholar', 'jekyll-seo-tag']
+bootstrap:
+  assets: true
 
+# Bibliography settings
+scholar:
+  bibliography: publications.bib
+  bibliography_template: pubstemplate
+  style: apa
+  locale: en
+  last_name: Me
+  first_name: [Myself, M.]
+  sort_by: year,month
+  order: descending,ascending
 
-kramdown:
-  auto_ids:  false
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
 
+academicons:
+  version: "1.9.1"
+  integrity: "sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg="
+fontawesome:
+  version: "5.15.4"
+  integrity: "sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4="
+jquery:
+  version: "3.6.0"
+  integrity: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
