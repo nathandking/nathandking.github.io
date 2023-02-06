@@ -1,0 +1,47 @@
+- project :
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://arxiv.org/pdf/1710.09655.pdf # Full URL
+    codeurl: https://github.com/nathandking/HarmonicMaps
+    image:
+      path: "harmonic_maps.png" # path: assets/project/
+    title: Solving variational problems and partial differential equations that map between manifolds via the closest point method 
+    summary: 
+    description: <b> Nathan King </b> & Steven Ruuth
+    date: Journal of Computational Physics 336 (2017) 330-346
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: assets/project/ThinShells.pdf # Full URL
+    codeurl:
+    image:
+      path: "ThinShellPreview.png" # path: assets/project/
+    title: Thin Shell Simulation with Environmental Stimuli
+    summary: 
+    description: <b> Nathan King </b>
+    date: Course Project - Physics-Based Animation (2019)
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: assets/project/WaveletImageCompression.pdf # Full URL
+    codeurl: https://github.com/nathandking/WaveletImageCompression
+    image:
+      path: "WaveletImageCompressionPreview.png" # path: assets/project/
+    title: Grayscale Image Compression Using Wavelets
+    summary: 
+    description: <b> Nathan King </b>
+    date: Course Project - Harmonic Analysis (2014) 
+
+- project:
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: assets/project/ImageSegmentation.pdf # Full URL
+    codeurl: https://github.com/nathandking/ImageSegmentation
+    image:
+      path: "ImageSegmentationPreview.png" # path: assets/project/
+    title: Segmentation of Piecewise Constant Grayscale Images
+    summary: 
+    description: <b> Nathan King </b>
+    date: Course Project - Mathematical Image Processing and Analysis (2014)
