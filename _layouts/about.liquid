@@ -48,7 +48,9 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <!-- Selected papers -->
+<hr>
+
+    <!-- Publications -->
     {% if page.selected_papers %}
       <h2>
         Publications
@@ -56,7 +58,9 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
+<hr>
+
+    <!-- Course Projects -->
     {% if page.selected_projects %}
       <h2>
         Course Projects
@@ -64,13 +68,17 @@ layout: default
       {% include selected_projects.liquid %}
     {% endif %}
 
-    <!-- Latest posts -->
+<hr>
+
+    <!-- Experience -->
     {% if site.latest_posts.enabled %}
       <h2>
         Experience
       </h2>
       {% include latest_posts.liquid %}
     {% endif %}
+
+<hr>
 
     <!-- Awards -->
     {% if site.latest_posts.enabled %}
