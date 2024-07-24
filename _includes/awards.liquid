@@ -15,7 +15,7 @@
           {% assign latest_posts_limit = latest_posts_size %}
         {% endif %}
         {% for item in latest_posts limit: latest_posts_limit %}
-          {% if item.type == "experience" %}
+          {% if item.type == "award" %}
           <tr>
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %Y' }} - {{item.end_date | date: '%b %Y' }}</th>
             <td>

@@ -5,6 +5,6 @@ description: Nathan King, Haozhe Su, Mridul Aanjaneya, Steven Ruuth, Christopher
 img: assets/img/publication_preview/CPM_IBC_GP.png
 importance: 1
 category: Peer-Reviewed
-related_publications: true
+related_publications: false
 publisher: ACM Transactions on Graphics, 2024
 ---
