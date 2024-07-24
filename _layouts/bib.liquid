@@ -184,6 +184,9 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      {% if entry.website %}
+        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Project</a>
+      {% endif %}
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
@@ -243,9 +246,6 @@
         {% else %}
           <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
         {% endif %}
-      {% endif %}
-      {% if entry.website %}
-        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Project</a>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
