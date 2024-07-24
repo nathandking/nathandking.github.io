@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-06-03
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Our ACM TOG paper, ["A Closest Point Method for PDEs on Manifolds with Interior Boundary Conditions for Geometry Processing"](https://arxiv.org/abs/2305.04711) is now available with [code](https://github.com/nathandking/cpm-ibc).
