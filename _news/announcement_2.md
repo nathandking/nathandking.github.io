@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am currently looking for research positions in industry working on geometry processing and/or physics-based animation to start January 2025.
+I am currently looking for research scientist positions working on geometry processing and/or physics-based animation to start January 2025.
