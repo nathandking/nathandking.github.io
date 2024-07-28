@@ -19,7 +19,6 @@
           <tr>
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %Y' }} - {{item.end_date | date: '%b %Y' }}</th>
             <td>
-              {% if item.redirect == blank %}
                 {{ item.title }}
                 {% capture string_with_newlines %}
                 <i>{{item.company}} - {{ item.department }}</i>
