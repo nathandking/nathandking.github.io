@@ -37,7 +37,7 @@ manifolds, and enhance colour images.
 
 
 ```
-@article{@article{king2017solving,
+@article{king2017solving,
   title={Solving Variational Problems and Partial Differential Equations that Map between Manifolds via the Closest Point Method},
   author={King, Nathan D. and Ruuth, Steven J.},
   journal={Journal of Computational Physics},
