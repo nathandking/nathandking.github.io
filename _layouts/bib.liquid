@@ -185,10 +185,10 @@
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.poster %}
-        <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
+        <a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
       {% endif %}
       {% if entry.abstract %}
-        <a href="{{ entry.abstract }}" class="btn btn-sm z-depth-0" role="button">Abstract</a>
+        <a href="{{ entry.abstract | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Abstract</a>
       {% endif %}
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Project</a>
