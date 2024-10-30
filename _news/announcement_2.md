@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-08-29
+date: 2024-09-20
 inline: true
 related_posts: false
 ---
 
-I am currently looking for research scientist positions or postdocs working on geometry processing and/or physics-based animation to start early 2025.
+Our SIGGRAPH Asia 2024 paper, ["Projected Walk on Spheres: A Monte Carlo Closest Point Method for Surface PDEs"](https://arxiv.org/pdf/2410.03844) is available online.

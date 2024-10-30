@@ -19,3 +19,5 @@ social: false # includes social icons at the bottom of the page
 My research focuses on computational methods involving closest point surface representations, with a particular interest in geometry processing and physics-based animation applications. I also have experience with other common surface representations, e.g., level-sets, point clouds, and meshes. I am supervised by Christopher Batty (UW) and Steve Ruuth (SFU).
 
 Prior to starting my PhD, I developed computer vision/image processing algorithms in the marine radar industry for 2 years. I completed my MSc in Applied and Computational Math at Simon Fraser University in 2015. I received my BSc in Applied Math and Physics (Joint Honours) at Memorial University of Newfoundland in 2013.
+
+**I am currently looking for research scientist positions or postdocs working on geometry processing and/or physics-based animation to start early 2025.**
