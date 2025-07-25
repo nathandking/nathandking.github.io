@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Candidate | University of Waterloo
+subtitle: Research Scientist | Shapr3D
 
 profile:
   align: right
@@ -16,8 +16,6 @@ selected_projects: true # includes a list of papers marked as "selected_project=
 social: false # includes social icons at the bottom of the page
 ---
 
-My research focuses on computational methods involving closest point surface representations, with a particular interest in geometry processing and physics-based animation applications. I also have experience with other common surface representations, e.g., level-sets, point clouds, and meshes. I am supervised by Christopher Batty (UW) and Steve Ruuth (SFU).
+I am a researcher in geometry processing and physics-based animation. My research develops general and efficient numerical methods on complex shapes using closest point queries—allowing algorithms to work across a wide variety of geometric representations without meshing. For more details, check out my [PhD thesis](assets/pdf/PhD_Thesis.pdf).
 
-Prior to starting my PhD, I developed computer vision/image processing algorithms in the marine radar industry for 2 years. I completed my MSc in Applied and Computational Math at Simon Fraser University in 2015. I received my BSc in Applied Math and Physics (Joint Honours) at Memorial University of Newfoundland in 2013.
-
-**I am currently looking for research scientist positions or postdocs working on geometry processing and/or physics-based animation to start early 2025.**
+I completed my PhD in Computer Science at the University of Waterloo, supervised by Christopher Batty and Steven Ruuth.  During my PhD, I interned twice at Meta Reality Labs Research. I am currently a Research Scientist at Shapr3D.
