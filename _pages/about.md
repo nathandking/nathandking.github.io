@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Research Scientist | [Shapr3D](https://www.shapr3d.com/)
+subtitle: Research Scientist | Shapr3D
 
 profile:
   align: right
